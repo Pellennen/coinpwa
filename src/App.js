@@ -1,14 +1,11 @@
 
-    import React, { Component } from 'react';
-
+    import React from 'react';
     import './App.css';
 
     import Today from './Today/Today'
 
-    import History from './History/History'
+    function App() {
 
-    class App extends Component {
-      render() {
         return (
           <div className="">
               <div className="topheader">
@@ -29,12 +26,12 @@
                   </div>
                   <div className="results--section__inner">
                       <Today />
-                      <History />
-                  </div>
+
+                                        </div>
               </section>
           </div>
         );
       }
-    }
+
 
     export default App;
